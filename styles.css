@@ -1,0 +1,95 @@
+/* 
+Colours:
+1. #E1D5E8
+2. #846B8A
+3. #C5C392
+4. #07090F
+5. #1E000E
+
+*/
+
+body {
+    background-color: #dad5e8;
+}
+
+.main {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@font-face {
+    font-family: Amenti;
+    src: url('Amenti-Font/Amenti Regular.ttf');
+    color: #07090F;
+}
+
+card {
+    margin: 5px;
+    padding: 10px;
+    /* border-style: solid; */
+    /* border-color: #6f6687; */
+    /* border-width: 3px; */
+    border-radius: 15px;
+    font-family: Amenti;
+    box-shadow: 0 0 10px #7c7481;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.text {
+    margin-left: 150px;
+    border-left: 4px solid #3c303f;
+    padding-left: 15px;
+}
+
+.big {
+    font-size: large;
+}
+
+.small {
+    font-size: small;
+}
+
+.pop {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+    background-color: #c2c1a8;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+.pop:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #846B8A(0, 0, 0, 0.5);
+    background-color: #C5C392;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 6px;
+    background-color: #846B8A;
+}
+
+.title {
+    margin-left: 10px;
+}
