@@ -10,13 +10,50 @@ Colours:
 
 body {
     background-color: #dad5e8;
+    overflow-x: hidden;
+    margin: 0;
 }
 
-.main {
-    padding: 30px;
+.sectionWrapper {
     display: flex;
+    width: 200vw;
+    transition: transform 1s ease-in-out;
+}
+
+section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: flex-start;
+    position: relative;
+    padding: 30px 150px 30px 150px;
+}
+
+.arrow-button {
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    color: #846B8A;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.arrow-button.left {
+    left: 20px;
+}
+
+.arrow-button.right {
+    right: 20px;
+}
+
+.side {
+    margin-left: 65%;
+    margin-right: 10%;
+    text-align: right;
 }
 
 @font-face {
@@ -25,9 +62,10 @@ body {
     color: #07090F;
 }
 
-card {
+.card {
     margin: 5px;
     padding: 10px;
+    padding-bottom: 50px;
     /* border-style: solid; */
     /* border-color: #6f6687; */
     /* border-width: 3px; */
@@ -37,6 +75,7 @@ card {
     display: inline-block;
     font-size: 14px;
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
 .text {
@@ -51,6 +90,10 @@ card {
 
 .small {
     font-size: small;
+}
+
+.e {
+    margin-left: 80%;
 }
 
 .pop {
