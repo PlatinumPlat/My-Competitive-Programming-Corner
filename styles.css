@@ -16,7 +16,7 @@ body {
 
 .sectionWrapper {
     display: flex;
-    width: 200vw;
+    width: 500vw;
     transition: transform 1s ease-in-out;
 }
 
@@ -24,7 +24,6 @@ section {
     width: 100vw;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
@@ -82,6 +81,7 @@ section {
     margin-left: 150px;
     border-left: 4px solid #3c303f;
     padding-left: 15px;
+    margin-right: 100px;
 }
 
 .big {
@@ -115,10 +115,28 @@ section {
     padding: 3px;
 }
 
+.popsmall {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out;
+    background-color: #c2c1a8;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: larger;
+    margin-left: 20px;
+}
+
+.popsmall:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #846B8A(0, 0, 0, 0.5);
+    background-color: #C5C392;
+    border-radius: 5px;
+    padding: 3px;
+}
+
 h1 {
     font-size: 28px;
     text-align: center;
-    font-size: 2.5rem;
     font-weight: bold;
     position: relative;
     display: inline-block;
@@ -133,6 +151,37 @@ h1::after {
     background-color: #846B8A;
 }
 
+h2 {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 0px;
+}
+
 .title {
     margin-left: 10px;
+}
+
+.sample {
+    background-color: #b1acb4;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: #3c303f;
+    border-style: solid;
+}
+
+.important {
+    background-color: #ebe9b3;
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #bfa8c5;
+}
+
+.warning {
+    background-color: rgb(208, 141, 128);
+    padding: 10px;
+    border-radius: 3px;
+    border-color: #bfa8c5;
 }

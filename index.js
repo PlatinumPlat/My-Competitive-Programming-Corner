@@ -1,4 +1,4 @@
-document.querySelectorAll('arrow-button').forEach(btn => {
+document.querySelectorAll('.arrow-button').forEach(btn => {
     btn.addEventListener('click', e => {
         e.preventDefault;
         const traget = document.querySelector(btn.getAttribute('href'));
