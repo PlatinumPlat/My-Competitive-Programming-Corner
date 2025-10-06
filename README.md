@@ -7,5 +7,11 @@ This summer, I spent 75 hours coding solutions to ~150 competitive programming p
 # Playable Link
 https://platinumplat.github.io/My-Competitive-Programming-Corner/
 
+# Tools
+To make this website, I used
+- HTML for the raw content
+- CSS for the styling
+- JS for the interactive functionalities
+
 # My Goal
 I aim to inspire at least one person to try out competitive programming, even if you only want to attempt one simple problem!
