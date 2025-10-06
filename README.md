@@ -15,3 +15,5 @@ To make this website, I used
 
 # My Goal
 I aim to inspire at least one person to try out competitive programming, even if you only want to attempt one simple problem!
+
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
